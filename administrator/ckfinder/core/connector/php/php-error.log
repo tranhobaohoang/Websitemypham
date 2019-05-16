@@ -1,0 +1,42 @@
+[25-Jul-2018 03:07:52 UTC] Hello, errors!
+[25-Jul-2018 03:07:52 UTC] PHP Warning:  imagepng(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 263
+[25-Jul-2018 03:07:52 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:07:52 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:07:52 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:09:08 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  imagepng(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 263
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  imagejpeg(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 260
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  imagepng(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 263
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/51255.png in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:09:09 UTC] Hello, errors!
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  imagejpeg(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 260
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:09:09 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/_DSC0500.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:09:11 UTC] Hello, errors!
+[25-Jul-2018 03:09:13 UTC] Hello, errors!
+[25-Jul-2018 03:09:13 UTC] Hello, errors!
+[25-Jul-2018 03:09:13 UTC] Hello, errors!
+[25-Jul-2018 03:09:13 UTC] PHP Warning:  imagejpeg(): Unable to open '/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/3.jpg' for writing: Permission denied in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 260
+[25-Jul-2018 03:09:13 UTC] PHP Warning:  filesize(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/3.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 91
+[25-Jul-2018 03:09:13 UTC] PHP Warning:  getimagesize(/home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/3.jpg): failed to open stream: No such file or directory in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 92
+[25-Jul-2018 03:09:13 UTC] PHP Warning:  filemtime(): stat failed for /home/dtivn/domains/dthome.vn/public_html/upload/_thumbs/Images/3.jpg in /home/dtivn/domains/dthome.vn/public_html/administrator/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php on line 96
+[25-Jul-2018 03:10:12 UTC] Hello, errors!
+[25-Jul-2018 03:10:12 UTC] Hello, errors!
+[25-Jul-2018 03:10:12 UTC] Hello, errors!
+[25-Jul-2018 03:10:52 UTC] Hello, errors!
+[25-Jul-2018 03:10:52 UTC] Hello, errors!
+[25-Jul-2018 03:10:52 UTC] Hello, errors!

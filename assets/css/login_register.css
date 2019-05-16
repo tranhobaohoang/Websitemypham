@@ -1,0 +1,50 @@
+.box_login_acoun{
+	border: solid 1px #ddd;
+	margin: 20px auto;
+	border-top: none;
+	max-width: 1000px;
+}
+.box_login_acoun .content{
+	padding: 20px;
+}
+.box_login_acoun .head{
+    background: #efa7b3;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.box_login_acoun .title{
+    font-weight: bold;
+    font-family: Tahoma;
+    margin-bottom: 20px;
+}
+.box_login_acoun .btnLogin1{
+	background: url("../images/icon.png") no-repeat scroll 10px -320px #0a3761;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font: bold 15px/30px 'robotocondensed';
+	padding: 0 10px 0 35px;
+	text-transform: uppercase;
+	border: none;
+}
+#frm_update_member{max-width: 600px;margin: auto;/* background: rgba(0, 78, 249, 0.15); */padding: 10px;margin-bottom: 20px;}
+#frm_update_member b{width: 160px;float: left;}
+#frm_update_member input[type="text"], #frm_update_member input[type="email"], #frm_update_member input[type="tel"], #frm_update_member input[type="password"], #frm_update_member select{max-width: calc( 100% - 160px );float: right;margin-bottom: 10px;}
+#frm_update_member input[type="date"]{
+	float: right; max-width: calc(100% - 220px); vertical-align: middle;
+}
+#frm_update_member span{width: 100px; float: right; line-height: 30px;  vertical-align: middle; display: inline-block;}
+.sodu{font-size: 15px;border-bottom: solid 1px #ddd;padding: 10px 0px;margin-bottom: 20px;}
+.sodu span{ color: #f00; font-weight: bold;}
+.service-list th{
+    background: #0090B5;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.title{}

@@ -1,0 +1,45 @@
+RewriteEngine on
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+DirectoryIndex default.php
+
+RewriteRule ^admin$ admin/ [L]
+RewriteRule ^admin/(.*)$ admin/$1 [L]
+
+#link thumb
+RewriteRule ^thumb/([0-9]+)x([0-9]+)/([0-9]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).([a-zA-Z0-9_-]+)$ assets/js/timthumb.php?src=http://%{HTTP_HOST}/$4/$5/$6.$8&w=$1&h=$2&zc=$3&q=90  [L]
+
+RewriteRule ^&p=([0-9]+)$ default.php?com=index&p=$1  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ default.php?com=$1&mTransactionID=$2&bankCode=$3&transactionStatus=$4&checksum=$5&ts=$6  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)&p=([0-9]+)$ default.php?com=$1&p=$2  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)$ default.php?com=$1  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+).html&p=([0-9]+)$ default.php?com=$1&p=$2  [L]
+RewriteRule ^([a-zA-Z0-9_-]+).html$ default.php?com=$1  [L]
+
+
+RewriteRule ^([a-zA-Z0-9_-]+).html/keyword=(.*)$ default.php?com=$1&keyword=$2  [L]
+RewriteRule ^([a-zA-Z0-9_-]+).html/keyword=(.*)&p=([0-9]+)$ default.php?com=$1&keyword=$2&p=$3  [L]
+
+RewriteRule ^tag/([a-zA-Z0-9_-]+)/&p=([0-9]+)$ default.php?com=tag&slug=$1&p=$2  [L]
+RewriteRule ^tag/([a-zA-Z0-9_-]+)/$ default.php?com=tag&slug=$1  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+).html&p=([0-9]+)$ default.php?com=$1&id=$3&p=$4  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+).html$ default.php?com=$1&id=$3  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)&p=([0-9]+)$ default.php?com=san-pham&id=$2&p=$4  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ default.php?com=san-pham&id=$2  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)/&p=([0-9]+)$ default.php?com=san-pham&idc=$2&p=$3 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)/$ default.php?com=san-pham&idc=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+)/&p=([0-9]+)$ default.php?com=$1&idc=$3&p=$4  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+)/$ default.php?com=$1&idc=$3  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)/&p=([0-9]+)$ default.php?com=$1&id=$2&p=$3 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ default.php?com=$1&act=$2 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)/$ default.php?com=$1&id=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ default.php?com=$1&act=$2&user=$3&t=$4  [L]
+

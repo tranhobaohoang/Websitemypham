@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span,strong{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+body
+{
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.5;
+    color:#000;
+    background:#fff;
+}
+.container{ width:1200px; margin:auto;}
+body{ background:url(../images/bg_intro.png)}
+.left{
+    width: 440px;
+    float: left;
+    position:relative;
+}
+.right{
+    float: right;
+    width: 760px;
+}
+#gioithieu{
+    /* background: #fff; */
+    border: solid 8px rgba(255, 255, 255, 0.21);
+    border-radius: 40px;
+    overflow: hidden;
+}
+.cotent{ background:#fff; padding: 20px; font-size: 15px; text-align: justify; padding-bottom: 40px;}
+.title-gt{ color: #BEBDBD; background:url(../images/bg_gt.png) no-repeat left center; padding-left: 40px; font-family:tintuchep; font-size: 20px; line-height: 80px;}
+.footer{ color:#cecece; background:rgba(0,0,0,0.3);position: fixed; bottom: 0px; line-height: 35px; width: 100%; text-align: center;}
+.footer span{ color:#ffba00;}
+.footer a{ color:#ffba00; text-decoration:none;}
+.clear{ clear:both; visibility:hidden; overflow:hidden;}
+.box1{ position:absolute; top: 95px; left: 0px;}
+.box2{ position:absolute; top: 0px; right: 50px;}
+.box3{ position:absolute; top: 195px; right: 50px;}
+.BackgroundRR:hover{ z-index:1001;}
+.BackgroundRR img {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.BackgroundRR:hover img {-webkit-transform: rotate(-10deg) scale(1.4);-moz-transform: rotate(-10deg) scale(1.4);-ms-transform: rotate(-10deg) scale(1.4);-o-transform: rotate(-10deg) scale(1.4);transform: rotate(-10deg) scale(1.4);}
